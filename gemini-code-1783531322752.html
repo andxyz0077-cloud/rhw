@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Royal Havard Marketing Solution Pvt. Ltd. — India's trusted partner for industrial transportation serving IOCL, HURL, NTPC, Pepsi and more. Safe, reliable, and on-time delivery across the nation." />
+  <meta name="keywords" content="transportation, logistics, IOCL, HURL, NTPC, Pepsi, tanker transport, cargo, Royal Havard" />
+  <title>Royal Havard Marketing Solution Pvt. Ltd. | Trusted Industrial Transportation</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Open Graph / Social Share -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Royal Havard Marketing Solution Pvt. Ltd. | Trusted Industrial Transportation" />
+  <meta property="og:description" content="India's trusted partner for industrial transportation serving IOCL, HURL, NTPC, Pepsi and more. Safe, reliable, and on-time delivery across the nation." />
+  <meta property="og:image" content="assets/images/hero-banner.png" />
+  <meta property="og:url" content="https://www.royalhavard.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ===== LOADER ===== -->
+  <div class="loader" id="loader">
+    <div class="loader-spinner"></div>
+    <p>Royal Havard</p>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">
+        <div class="nav-logo-icon">RH</div>
+        Royal <span>Havard</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#ambitions">Vision</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#directors">Leadership</a></li>
+        <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile overlay -->
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="assets/images/hero-banner.png" alt="Fleet of transport vehicles on highway" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Trusted Since Establishment
+        </div>
+        <h1>Powering India's <span class="highlight">Industrial Backbone</span> with Reliable Transport</h1>
+        <p class="hero-description">
+          Royal Havard Marketing Solution Pvt. Ltd. delivers end-to-end transportation solutions for India's largest
+          corporations — from petroleum to beverages — with unwavering safety, efficiency, and on-time performance.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">
+            Get in Touch
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+          </a>
+          <a href="https://wa.me/919876543210?text=I%20am%20interested%20in%20logistics%20services" class="btn-outline" target="_blank" rel="noopener noreferrer">
+            Chat on WhatsApp
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" /><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1" /></svg>
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3>500+</h3>
+            <p>Trips Monthly</p>
+          </div>
+          <div class="stat-item">
+            <h3>50+</h3>
+            <p>Fleet Vehicles</p>
+          </div>
+          <div class="stat-item">
+            <h3>99.8%</h3>
+            <p>On-Time Rate</p>
+          </div>
+          <div class="stat-item">
+            <h3>5+</h3>
+            <p>Major Clients</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CLIENTS — Elegant text marquee ===== -->
+  <section class="clients-bar">
+    <div class="clients-inner">
+      <span class="client-label">Trusted By</span>
+      <div class="clients-marquee">
+        <div class="clients-marquee-track">
+          <span class="client-name">Indian Oil Corporation</span><span class="client-sep"></span>
+          <span class="client-name">HURL</span><span class="client-sep"></span>
+          <span class="client-name">NTPC Limited</span><span class="client-sep"></span>
+          <span class="client-name">PepsiCo</span><span class="client-sep"></span>
+          <span class="client-name">HPCL</span><span class="client-sep"></span>
+          <!-- duplicate for seamless loop -->
+          <span class="client-name">Indian Oil Corporation</span><span class="client-sep"></span>
+          <span class="client-name">HURL</span><span class="client-sep"></span>
+          <span class="client-name">NTPC Limited</span><span class="client-sep"></span>
+          <span class="client-name">PepsiCo</span><span class="client-sep"></span>
+          <span class="client-name">HPCL</span><span class="client-sep"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrapper reveal">
+          <div class="about-image">
+            <img src="assets/images/fleet-trucks.png" alt="Royal Havard fleet of transport trucks" />
+          </div>
+          <div class="about-image-accent"></div>
+        </div>
+        <div class="about-text reveal">
+          <span class="section-label">Who We Are</span>
+          <h2>A Legacy of <span class="highlight">Trust & Excellence</span> in Transportation</h2>
+          <p>Royal Havard Marketing Solution Private Limited is a premier transportation and logistics company headquartered in Bihar, India. We specialize in the safe and efficient transportation of petroleum products, fertilizers, industrial raw materials, and consumer goods for some of the nation's largest corporations.</p>
+          <p>With a modern fleet of tankers, cargo vehicles, and a team of highly trained professionals, we ensure every consignment reaches its destination on time and in perfect condition. Our commitment to safety, compliance, and customer satisfaction has made us the preferred logistics partner for industry giants like IOCL, HURL, NTPC, and PepsiCo.</p>
+          <div style="margin-top: 28px;">
+            <a href="#services" class="btn-primary">
+              Explore Services
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">What We Do</span>
+        <h2 class="section-title">Comprehensive Transport Solutions</h2>
+        <p class="section-subtitle">From petroleum to packaged goods — we move what powers the nation with precision and reliability.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12c0-4 3-8 10-8s10 4 10 8" /><ellipse cx="12" cy="12" rx="10" ry="4" /><path d="M2 12v4c0 2.2 4.5 4 10 4s10-1.8 10-4v-4" /></svg></div>
+          <h3>Petroleum Transport</h3>
+          <p>Safe and compliant transportation of crude oil, refined petroleum products, and LPG for IOCL and HPCL across multiple states with GPS-tracked tanker fleets.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18" /><path d="M5 21V7l8-4v18" /><path d="M19 21V11l-6-4" /><path d="M9 9h1" /><path d="M9 13h1" /><path d="M9 17h1" /></svg></div>
+          <h3>Industrial Raw Materials</h3>
+          <p>Bulk transportation of coal, fly ash, limestone, and other industrial raw materials for power plants like NTPC, ensuring uninterrupted supply chains.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v8L4.7 18.3a1.5 1.5 0 0 0 1.3 2.2h12a1.5 1.5 0 0 0 1.3-2.2L14 10V2" /><path d="M8.5 2h7" /><path d="M7 16h10" /></svg></div>
+          <h3>Fertilizer Logistics</h3>
+          <p>End-to-end logistics for fertilizer distribution on behalf of HURL (Hindustan Urvarak & Rasayan Limited), covering primary and last-mile delivery.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8h1a4 4 0 1 1 0 8h-1" /><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z" /><line x1="6" y1="2" x2="6" y2="4" /><line x1="10" y1="2" x2="10" y2="4" /><line x1="14" y1="2" x2="14" y2="4" /></svg></div>
+          <h3>FMCG Distribution</h3>
+          <p>Temperature-conscious transport and warehousing distribution support for PepsiCo beverages, ensuring freshness and timely shelf replenishment.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" /><path d="m3.3 7 8.7 5 8.7-5" /><path d="M12 22V12" /></svg></div>
+          <h3>Contract Logistics</h3>
+          <p>Dedicated fleet solutions and long-term contract logistics for enterprises seeking a reliable, single-source transportation partner.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10H12V2z" /><path d="M20.2 7.8A6 6 0 0 0 16.2 3.8" /><circle cx="12" cy="12" r="2" /></svg></div>
+          <h3>GPS Fleet Tracking</h3>
+          <p>Real-time vehicle tracking, route optimization, and digital proof-of-delivery for complete shipment visibility and transparency.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AMBITIONS ===== -->
+  <section class="ambitions-section" id="ambitions">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Looking Ahead</span>
+        <h2 class="section-title">Our Future Ambitions</h2>
+        <p class="section-subtitle">We are committed to growth, innovation, and building a sustainable future for Indian logistics.</p>
+      </div>
+      <div class="ambitions-timeline">
+        <!-- AMBITION ITEMS (Truncated for brevity, kept exactly identical to source) -->
+        <div class="ambition-item reveal">
+          <div class="ambition-dot"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13" rx="2" /><path d="M16 8h4l3 3.5V16h-7V8z" /><circle cx="5.5" cy="18.5" r="2.5" /><circle cx="18.5" cy="18.5" r="2.5" /></svg></div>
+          <div class="ambition-content">
+            <span class="ambition-year">Fleet Expansion</span>
+            <h3>200+ Vehicle Fleet by 2028</h3>
+            <p>Expanding our modern fleet to over 200 vehicles including CNG and electric trucks, covering all major national highways and industrial corridors.</p>
+          </div>
+        </div>
+        <div class="ambition-item reveal">
+          <div class="ambition-dot"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c4-4 8-7.5 8-12a8 8 0 1 0-16 0c0 4.5 4 8 8 12z" /><path d="M8 14s1.5 2 4 2 4-2 4-2" /><line x1="9" y1="9" x2="9.01" y2="9" /><line x1="15" y1="9" x2="15.01" y2="9" /></svg></div>
+          <div class="ambition-content">
+            <span class="ambition-year">Sustainability</span>
+            <h3>Carbon-Neutral Operations by 2030</h3>
+            <p>Transitioning to green logistics with CNG-powered vehicles, electric last-mile delivery, and carbon offset programs for a sustainable tomorrow.</p>
+          </div>
+        </div>
+        <div class="ambition-item reveal">
+          <div class="ambition-dot"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4" /><path d="M12 18v4" /><path d="m4.93 4.93 2.83 2.83" /><path d="m16.24 16.24 2.83 2.83" /><path d="M2 12h4" /><path d="M18 12h4" /><path d="m4.93 19.07 2.83-2.83" /><path d="m16.24 7.76 2.83-2.83" /><circle cx="12" cy="12" r="4" /></svg></div>
+          <div class="ambition-content">
+            <span class="ambition-year">Technology</span>
+            <h3>AI-Powered Logistics Platform</h3>
+            <p>Building a proprietary AI-driven logistics management system with predictive analytics, automated dispatch, and intelligent route optimization.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AWARDS ===== -->
+  <section class="awards-section" id="awards">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Recognition</span>
+        <h2 class="section-title">Awards & Achievements</h2>
+        <p class="section-subtitle">Our commitment to excellence has been recognized by industry bodies and our valued clients.</p>
+      </div>
+      <div class="awards-grid">
+        <div class="award-card reveal">
+          <div class="award-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6" /><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" /></svg></div>
+          <h3>Best Transporter Award</h3>
+          <span class="award-year">IOCL — 2024</span>
+          <p>Recognized by Indian Oil Corporation Limited for outstanding service reliability, safety compliance, and on-time delivery performance.</p>
+        </div>
+        <div class="award-card reveal">
+          <div class="award-icon"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /><path d="m9 12 2 2 4-4" /></svg></div>
+          <h3>Zero Accident Achievement</h3>
+          <span class="award-year">Safety Record — 2023</span>
+          <p>Achieved an exemplary zero-accident record across 10,000+ trips, demonstrating our unwavering commitment to driver and cargo safety.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BOARD OF DIRECTORS ===== -->
+  <section class="directors-section" id="directors">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Leadership</span>
+        <h2 class="section-title">Board of Directors</h2>
+        <p class="section-subtitle">Meet the visionaries steering Royal Havard towards new horizons in Indian logistics.</p>
+      </div>
+      <div class="directors-grid">
+        <div class="director-card reveal">
+          <div class="director-image-wrapper">
+            <img src="assets/images/director-shyam.jpg" alt="Director Shyam Kumar" />
+            <div class="director-overlay"></div>
+          </div>
+          <div class="director-info">
+            <h3>Shyam Kumar</h3>
+            <p class="role">Director</p>
+            <p>Strategic leader steering Royal Havard's development and expansion, driving national transportation partnerships and operational safety.</p>
+          </div>
+        </div>
+        <div class="director-card reveal">
+          <div class="director-image-wrapper">
+            <img src="assets/images/director-manju.jpg" alt="Director Manju Gupta" />
+            <div class="director-overlay"></div>
+          </div>
+          <div class="director-info">
+            <h3>Manju Gupta</h3>
+            <p class="role">Director</p>
+            <p>Operations and administrative director overseeing corporate governance, fiscal management, and sustainable organizational growth.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Get in Touch</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">Have a logistics need or want to partner with us? Reach out and we'll get back to you promptly.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h2>Company <span style="color: var(--color-accent);">Information</span></h2>
+          <p>We're always open to discuss new partnerships, logistics requirements, or answer any questions you may have.</p>
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" /></svg></div>
+              <div class="contact-detail-text">
+                <h4>Registered Office</h4>
+                <p>Royal Havard Marketing Solution Pvt. Ltd.<br />Papraur, Begusarai, Bihar — 851210<br />India</p>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg></div>
+              <div class="contact-detail-text">
+                <h4>Phone</h4>
+                <p>+91 98765 43210<br />+91 0612-2345678</p>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" /></svg></div>
+              <div class="contact-detail-text">
+                <h4>Email</h4>
+                <p>info@royalhavard.com<br />logistics@royalhavard.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper reveal">
+          <form class="contact-form" id="contactForm">
+            
+            <!-- Web3Forms Access Key (Replace Value) -->
+            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY_HERE" />
+            <!-- Honey to prevent spam -->
+            <input type="text" name="_honey" style="display:none" />
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="userName">Full Name *</label>
+                <input type="text" id="userName" name="name" placeholder="Enter your full name" required />
+              </div>
+              <div class="form-group">
+                <label for="userEmail">Email Address *</label>
+                <input type="email" id="userEmail" name="email" placeholder="you@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="userPhone">Contact Number</label>
+              <input type="tel" id="userPhone" name="phone" placeholder="+91 XXXXX XXXXX" />
+            </div>
+            <div class="form-group">
+              <label>Service Interested In *</label>
+              <div class="service-tabs" id="serviceTabs" role="radiogroup" aria-label="Service Interested In">
+                <label class="service-tab">
+                  <input type="radio" name="service" value="Petroleum Transport" required />
+                  <span>Petroleum Transport</span>
+                </label>
+                <label class="service-tab">
+                  <input type="radio" name="service" value="Industrial Raw Materials" />
+                  <span>Industrial Raw Materials</span>
+                </label>
+                <label class="service-tab">
+                  <input type="radio" name="service" value="Fertilizer Logistics" />
+                  <span>Fertilizer Logistics</span>
+                </label>
+                <label class="service-tab">
+                  <input type="radio" name="service" value="FMCG Distribution" />
+                  <span>FMCG Distribution</span>
+                </label>
+                <label class="service-tab">
+                  <input type="radio" name="service" value="Contract Logistics" />
+                  <span>Contract Logistics</span>
+                </label>
+                <label class="service-tab">
+                  <input type="radio" name="service" value="GPS Fleet Tracking" />
+                  <span>GPS Fleet Tracking</span>
+                </label>
+                <label class="service-tab">
+                  <input type="radio" name="service" value="Others" />
+                  <span>Others</span>
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="userMessage">How can we help you? *</label>
+              <textarea id="userMessage" name="message" placeholder="Describe your logistics requirements, partnership inquiry, or any questions..." rows="5" required></textarea>
+            </div>
+            <div id="formMessage" class="form-message"></div>
+            <div class="form-submit">
+              <button type="submit" class="btn-primary" id="submitBtn">
+                Send Message
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13" /><path d="m22 2-7 20-4-9-9-4 20-7z" /></svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <div class="nav-logo-icon">RH</div>
+            Royal <span>Havard</span>
+          </a>
+          <p>Delivering excellence in transportation & logistics for India's top industrial corporations since establishment.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> Royal Havard Marketing Solution Pvt. Ltd. All rights reserved.</p>
+        <p>Designed with precision & pride</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
